@@ -1,0 +1,15 @@
+{
+    "scripts": {
+      "pre-dependencies-solving": [
+        "php -m",
+        "phpbrew ext install imagick",
+        "php -m | grep imag"
+      ]
+    },
+    "require-dev": {
+        "php": "^5.4 | ^7.0"
+    },
+    "require": {
+        "ext-imagick": "*"
+    }
+}
